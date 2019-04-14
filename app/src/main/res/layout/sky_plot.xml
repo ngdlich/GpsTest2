@@ -4,7 +4,11 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <com.example.gpstest2.SkyPlotView
+     <com.example.gpstest2.SkyPlotView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:id="@+id/sky_plot"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
